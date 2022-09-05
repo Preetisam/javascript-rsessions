@@ -1,15 +1,16 @@
 <html>
-    <head>
+    <body>
         <script>
-            (function printNumber() {
-                let numbers =[1, 6, 76, 34, 5, 9];
-                for (var counter = 0; counter < numbers.length; counter ++) {
-                    console.log(numbers[counter]);
-                    if (numbers[counter]==34){
-                        break;
-                    }
-                }
-            } )();
+    (function(){
+    var num = prompt("Please enter a number");
+    var len = num.length;
+    var msg = `It's is a palindromes under 50.`;
+    for (let i = 0; i < len/2 ; i++) {
+        if (num[i] != num[len - 1- i]){
+            msg = `It is not a palindromes under.`;
+        }
+    } console.log(`${num}: ${msg}`);
+})();
         </script>
-    </head>
-</html> 
+    </body>
+</html>
