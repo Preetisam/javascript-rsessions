@@ -1,0 +1,12 @@
+(function (){
+    function ranning(){
+        var  temp = 18
+        var rain = true
+       if (temp >20 && temp <25 && !rain){
+         console.log ("go and play")
+       } else if { temp > 18 && temp<20 && rain
+        console.log("go to play")
+        return ("stay at home ")
+       }
+    }    
+})();
