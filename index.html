@@ -1,15 +1,19 @@
 <html>
-    <head>
+    <body>
         <script>
-            (function printNumber() {
-                let numbers =[1, 6, 76, 34, 5, 9];
-                for (var counter = 0; counter < numbers.length; counter ++) {
-                    console.log(numbers[counter]);
-                    if (numbers[counter]==34){
-                        break;
+            (function () {
+                function getMinLectures(M, N) {
+                    if ((N / M)) * 10 >= 75) {
+                        return 0;
+                    } else {
+                        (0.75 * M) - N;
                     }
-                }
-            } )();
+                }   
+                console.log("getMinLectures(10,8)") + getMinLectures(10,8); 
+                console.log("getMinLectures(10,8)") + getMinLectures(10,2); 
+                console.log("getMinLectures(10,8)") + getMinLectures(10,6); 
+                console.log("getMinLectures(10,8)") + getMinLectures(10,7);          
+            })();     
         </script>
-    </head>
-</html> 
+    </body>
+</html>
