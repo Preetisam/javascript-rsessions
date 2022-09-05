@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <body>
+<h1>PERFECT SQUARE</h1>
+<script>
+    (function(){
+        function Square(number) {
+            var square = 
+            console.log(number*number);
+            square(4); 
+        }
+    })();   
+    </script>
+
+</body>
+</html>
