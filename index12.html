@@ -1,0 +1,41 @@
+<html>
+    <head>
+         <body>
+       <script>
+              function getDivision() {
+    //     var marks=document.getElementById("marks").value;
+    //    if (marks > 75){
+    //     console.log("You got distinction");
+    //    }else if (marks>=60){
+    //     console.log("you got first class");
+    //    }else if(marks>=45){
+    //     console.log("secon class");
+    //    }else{
+    //     console.log("sorry but you did not clear the exam")
+    //    } 
+    }
+    function getNationality(){
+        var country = document.getElementById("enter your country").value;
+        switch (country){
+            case "India":
+            console.log("You are indian national");
+            break;
+            case"USA":
+            console.log("You are Americian");
+            break;
+            default:
+                console.log("You are an alien");
+               }
+            }
+       </script>
+    </head>
+         <body>
+           <lable for ="country" id="myLable">Enter your country</lable>
+           <inpput type="text" id="country"/>
+           <button onclick="getNationality()">Get results</button>
+      </div>
+    </body>
+</html>
+
+      
+
